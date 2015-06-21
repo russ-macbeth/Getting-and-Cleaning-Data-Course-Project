@@ -14,7 +14,7 @@ library(dplyr)
 library(reshape2)
 
 
-## Get directories for extracting data files (must be in the directory above where the dataset was unzipped)
+## Get directories for extracting data files (must be in the directory where the dataset was unzipped)
 working_dir <- getwd()
 data_dir <- paste(working_dir, "/UCI HAR Dataset", sep = "")
 test_dir <- paste(working_dir, "/UCI HAR Dataset/test", sep = "")
